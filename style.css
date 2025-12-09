@@ -95,6 +95,7 @@ body{
       }
 
       .fr{
+        z-index: 1;
         position: absolute;
         top: 0;
         right: 0;
@@ -460,7 +461,7 @@ body{
        }
 
        .login{
-             margin-left: 00px;
+             
            .but2{
             display: none;
            }
@@ -475,16 +476,27 @@ body{
 
 
         .fr{
-            width: 580px;
-            margin-left: 17%;
+            width: 280px;
+            height: 280px;
+            margin: 50px auto;
+            
+            .heading{
+              font-size: 12px;
+            }
 
             .form-content{
+              
+              
                 & form{
                   gap: 7px;
-                  
+                  display: block;
+                  margin: 25px;
+
                   & select{
-                    height: 25px;
+                    height: 35px;
                     width: 110px;
+                    gap: 20px;
+                    margin-bottom: 15px;
                   }
 
                 }
@@ -492,13 +504,19 @@ body{
             }
 
             .button{
-               gap: 13px;
+              margin-top: -15px;
+              
+               gap: 7px;
                .but3{
-                width: 50%;
+                width: 40%;
                 border-radius: 13px;
+                font-size: 14px;
                }
                .but4{
-                 width: 24%;
+                 width: 27%;
+                 font-size: 12px;
+                 padding: 7px 12px ;
+
                  
                }
             }
@@ -506,24 +524,60 @@ body{
         }
 
         & img{
-          width: 740px;
+          width: 100%;
+          height: 500px;
         }
 
-        .zappr{
-               margin-left: 300px;
-               .but5{
-                width: 140px;
-               }
-        }
+
 
        }
        
-       .buy-sell{
-          width: 740px;
-       }
+      
 
 
       }
+
+      .buy-sell{
+        height: 240px;
+        .buy-content{
+          .hd{
+            font-size: 20px;
+          }
+        }
+        
+      }
+
+   
+      .feature{
+        height: 1200px;
+         & h3{
+          font-size: 23px;
+          margin:30px 20px;
+          
+        }
+
+        .feature-content{
+
+           .parent{
+            height: 1000px;
+            display: block;
+            & img{
+              margin-top: 50px;
+            }
+             & h4{
+              font-size: 24px;
+              margin: 7px 5px ;
+             }
+              .div2{
+                display: none;
+                
+              }
+              .div4{
+                display: none;
+              }
+           }
+        }
+
 
   }
 
