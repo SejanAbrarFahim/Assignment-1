@@ -111,7 +111,7 @@ body{
         .heading{
           text-align: center;
           margin: 40px;
-          font-size: 20px;
+          font-size: 40px;
         }
 
         .form-content{
@@ -137,6 +137,7 @@ body{
       .button{
         display: flex;
         justify-content: center;
+        margin-top: 30px;
         gap: 20px;
         .but3{
            width: 60%;
@@ -582,6 +583,55 @@ body{
   }
 
 
+    .buysell-option{
+         border: none;
+         display: block;
+
+         .buy-option{
+          padding: 10px;
+           & h3{
+            font-size: 20px;
+           }
+            .buysell-content{
+                width: 300px;
+                gap: 5px;
+                margin: 10px;
+                
+                & img{
+                  height: 30px;
+                  padding: 10px;
+                }
+                & p{
+                  padding: 10px;
+                  font-size: 14px;
+                }
+            }
+         }
+
+    }
+
+
+    .get-section{
+        height: 700px;
+        text-align: start;
+        
+        .text-section{
+           margin: 0;
+           padding: 0;
+
+           & h2{
+            text-align: center;
+            margin-bottom: 75px;
+            padding: 75px 10px;
+            font-size: 35px;
+           }
+        }
+
+       
+    }
+
+
+}
 
 
 
