@@ -625,15 +625,52 @@ body{
 
            & h2{
             text-align: center;
-            margin-bottom: 75px;
+            margin-bottom: 25px;
             padding: 75px 10px;
             font-size: 35px;
            }
-        }
 
+        }
+       
+        .get-button{
+
+          .but8{
+             margin-top: -50px;
+          }
+        }
        
     }
 
+
+    .footer{
+      height: 900px; 
+      
+       .footer-content{
+        display: block;
+
+        .spacio{
+           font-size: 20px;
+           padding: 20px;
+        }
+
+        .product{
+          font-size: 14px;
+          margin: 5%;
+
+          & h3{
+            margin: 10px;
+          }
+        }
+       }
+       .footer-text{
+          background-color: black;
+
+          & p{
+            font-size:10px ;
+            padding: 10px 14px;
+          }
+       }
+    }
 
 }
 
