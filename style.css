@@ -581,7 +581,11 @@ body{
 
 
   }
-
+   
+   .buy-optionb{
+    border: none;
+   }
+   
 
     .buysell-option{
          border: none;
@@ -593,12 +597,12 @@ body{
             font-size: 20px;
            }
             .buysell-content{
-                width: 300px;
+                width: 90%;
                 gap: 5px;
                 margin: 10px;
                 
                 & img{
-                  height: 30px;
+                  height: 30px; 
                   padding: 10px;
                 }
                 & p{
