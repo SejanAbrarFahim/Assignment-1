@@ -1,1 +1,1 @@
-https://github.com/SejanAbrarFahim/Assignment-1
+https://sejanabrarfahim.github.io/Assignment-1/
